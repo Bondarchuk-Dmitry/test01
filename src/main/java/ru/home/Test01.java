@@ -94,7 +94,7 @@ public class Test01 {
             {
                 for (int i = 0; i < s1.size(); i++)
                 {
-                    if (s1.get(i).TotalNew >= Total) {
+                    if (s1.get(i).TotalNew <= Total) {
                         s1.add(i, new Sorted(Total, OutputFile));
                         break;
                     }
